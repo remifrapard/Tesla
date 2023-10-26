@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Roboto:wght@900&display=swap");
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+
+body {
+	font-family: 'Lora', serif;
+	font-size: 18px;
+}
+h1, h2, h3 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+}
+
+a {
+	text-decoration: none;
+	background-color: #DF001B;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+	font-weight: bold;
+}
+
+a:hover {
+	background-color: black;
+}
+
+#headquarter {
+	width: 150px;
+	height: 100px;
+}
+
+#meetus {
+	margin-right: 15px;
+}
+
+#letsgobutton {
+	font-family: arial;
+}
+
+
+#button1:hover {
+	transform: scale(1.05);
+}
+
+#button2:hover {
+	transform: scale(1.05);
+}
+
+#button3:hover {
+	transform: scale(1.05);
+}
